@@ -1,2 +1,2 @@
 # job-portal
-Job hunt and opportunities portal in .Net Core and ReactJS for new and experienced IT professionals
+Job hunt and opportunities portal in .Net Core and ReactJS for new and experienced IT professionals to help them out in their career journey.
