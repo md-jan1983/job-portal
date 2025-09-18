@@ -53,6 +53,9 @@ CodeCoverage/
 TestResult.xml
 nunit-*.xml
 
+# vscode
+.vs/
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 # React JS
 # dependencies
