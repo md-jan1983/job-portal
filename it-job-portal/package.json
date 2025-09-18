@@ -2,6 +2,7 @@
   "name": "it-job-portal",
   "private": true,
   "version": "0.0.0",
+  "proxy": "http://localhost:5223, https://localhost:7043",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -26,6 +27,6 @@
     "globals": "^16.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.13",
-    "vite": "^7.1.2"
+    "vite": "^7.1.6"
   }
 }

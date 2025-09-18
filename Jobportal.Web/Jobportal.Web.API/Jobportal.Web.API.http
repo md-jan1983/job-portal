@@ -1,0 +1,21 @@
+﻿@Jobportal.Web.API_HostAddress = https://localhost:7043
+
+@userId="Manoj"
+@userName="Manoj"
+@roless="admin"
+POST {{Jobportal.Web.API_HostAddress}}/GenerateJwtToken
+Content-Type: application/json
+{
+  userId={{userId}},
+  userName={{userName}},
+  roless={{roless}}
+}
+
+###
+GET {{Jobportal.Web.API_HostAddress}}/api/jobs/GetJob
+Content-Type: application/json
+###
+
+GET {{Jobportal.Web.API_HostAddress}}/api/jobs
+
+###
